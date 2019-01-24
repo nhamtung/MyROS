@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/arduino_ROS/arduino_ws/install
+
+Name: helloworld
+Description: Description of helloworld
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/arduino_ROS/arduino_ws/install/lib 
+Requires: 

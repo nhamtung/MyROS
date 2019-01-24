@@ -1,0 +1,2 @@
+helloworld
+-DCATKIN_DEVEL_PREFIX=/home/nhamtung/TungNV/arduino_ROS/arduino_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nhamtung/TungNV/arduino_ROS/arduino_ws/install -G Unix Makefiles
