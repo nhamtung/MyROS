@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_py"
-  "/home/nhamtung/TungNV/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py"
-  "/home/nhamtung/TungNV/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py"
+  "/home/nhamtung/TungNV/MyROS/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py"
+  "/home/nhamtung/TungNV/MyROS/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
