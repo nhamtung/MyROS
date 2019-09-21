@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install
+
+Name: husky_bringup
+Description: Description of husky_bringup
+Version: 0.3.2
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install/lib 
+Requires: 

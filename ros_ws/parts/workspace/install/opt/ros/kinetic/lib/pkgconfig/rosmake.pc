@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic
+
+Name: rosmake
+Description: Description of rosmake
+Version: 1.14.4
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 

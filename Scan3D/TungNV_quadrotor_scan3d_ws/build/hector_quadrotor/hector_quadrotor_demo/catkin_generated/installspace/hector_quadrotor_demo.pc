@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_quadrotor_scan3d_ws/install
+
+Name: hector_quadrotor_demo
+Description: Description of hector_quadrotor_demo
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_quadrotor_scan3d_ws/install/lib 
+Requires: 

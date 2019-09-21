@@ -1,0 +1,27 @@
+name: publisher-subscriber
+version: '0.1'
+summary: ROS Example
+description: |
+  The ROS publisher/subscriber example packaged as a snap.
+
+grade: stable
+confinement: strict
+
+parts:
+  workspace:
+    plugin: catkin
+    rosdistro: kinetic
+    catkin-packages: [beginner_tutorials]
+
+apps:
+  roscore:
+    command: roscore
+    plugs: [network, network-bind]
+
+  talker:
+    command: rosrun beginner_tutorials talker
+    plugs: [network, network-bind]
+
+  listener:
+    command: rosrun beginner_tutorials listener
+    plugs: [network, network-bind]

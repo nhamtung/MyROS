@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic
+
+Name: rostopic
+Description: Description of rostopic
+Version: 1.12.14
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 

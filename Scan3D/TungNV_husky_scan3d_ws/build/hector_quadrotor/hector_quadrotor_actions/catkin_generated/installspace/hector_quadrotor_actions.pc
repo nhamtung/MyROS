@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install
+
+Name: hector_quadrotor_actions
+Description: Description of hector_quadrotor_actions
+Version: 0.0.0
+Cflags: -I/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install/include
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install/lib 
+Requires: roscpp

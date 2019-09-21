@@ -1,0 +1,10 @@
+!GlobalState
+assets:
+  build-packages:
+  - libpython-all-dev=2.7.12-1~16.04
+  - python-all=2.7.12-1~16.04
+  - python-wheel=0.29.0-1
+  - python-pip-whl=8.1.1-2ubuntu0.4
+  - python-pip=8.1.1-2ubuntu0.4
+  - python-all-dev=2.7.12-1~16.04
+  build-snaps: []

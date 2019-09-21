@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel
+
+Name: hector_quadrotor_controller_gazebo
+Description: Description of hector_quadrotor_controller_gazebo
+Version: 0.3.5
+Cflags: -I/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/src/hector_quadrotor/hector_quadrotor_controller_gazebo/include
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel/lib -lhector_quadrotor_controller_gazebo
+Requires: gazebo_ros_control hector_quadrotor_interface

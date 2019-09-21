@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic
+
+Name: snapcraft
+Description: Description of snapcraft
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic/lib 
+Requires: 

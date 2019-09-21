@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel
+
+Name: husky_description
+Description: Description of husky_description
+Version: 0.3.2
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel/lib 
+Requires: 

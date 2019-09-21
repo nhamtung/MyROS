@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/devel
+
+Name: pub_sub_cpp
+Description: Description of pub_sub_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/ros_ws/devel/lib 
+Requires: 

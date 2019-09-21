@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.6.0
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: genmsg

@@ -1,0 +1,20 @@
+Hector_quadrotor_demo (TungNV)
+
+Tutorial:
+http://wiki.ros.org/hector_quadrotor/Tutorials
+
+Fix bug while building:
+https://answers.ros.org/question/244776/is-it-possible-to-run-the-hector_quadrotor-demos-in-kinetic/
+
+Run simulation:
+1. Run Gazebo and Rviz:
+roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch
+or
+roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
+
+2. Open new terminal, enable motor:
+rosservice call /enable_motors "enable: true"
+
+3. Controller the quadrotor via keyboard:
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+

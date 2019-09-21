@@ -1,0 +1,33 @@
+Hector_quadrotor_demo (TungNV)
+
+Tutorial:
+http://wiki.ros.org/hector_quadrotor/Tutorials
+
+Fix bug while building:
+https://answers.ros.org/question/244776/is-it-possible-to-run-the-hector_quadrotor-demos-in-kinetic/
+
+Run simulation:
+1. Open Serial port for rplidar:
+sudo chmod 666 /dev/ttyUSB0
+
+2. Start rplidar:
+roslaunch rplidar_ros rplidar.launch
+Check rplidar: roslaunch hector_slam_launch tutorial.launch
+
+3. Open seialport for IMU:
+sudo chmod 666 /dev/ttyACM0
+
+4. roslaunch mpu6050_ros mpu6050.launch
+Check IMU: rostopic echo /mpu6050
+
+3. Run Gazebo and Rviz:
+roslaunch hector_TungNV_demo slam_gazebo.launch
+
+
+NOTE: 
+- When open new terminal, need directory source:
+soure devel/setup.bash
+
+- show list USB:
+ll /dev/tty*
+

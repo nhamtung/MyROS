@@ -1,0 +1,154 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c36b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c36b4.dir/build.make CMakeFiles/cmTC_c36b4.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c36b4.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c36b4.dir/CheckSymbolExists.c.o   -c /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c36b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c36b4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c36b4.dir/CheckSymbolExists.c.o  -o cmTC_c36b4 -rdynamic 
+CMakeFiles/cmTC_c36b4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c36b4.dir/build.make:97: recipe for target 'cmTC_c36b4' failed
+make[1]: *** [cmTC_c36b4] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c36b4/fast' failed
+make: *** [cmTC_c36b4/fast] Error 2
+
+File /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3134b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3134b.dir/build.make CMakeFiles/cmTC_3134b.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3134b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3134b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3134b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3134b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3134b.dir/CheckFunctionExists.c.o  -o cmTC_3134b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3134b.dir/build.make:97: recipe for target 'cmTC_3134b' failed
+make[1]: *** [cmTC_3134b] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3134b/fast' failed
+make: *** [cmTC_3134b/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_948ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_948ac.dir/build.make CMakeFiles/cmTC_948ac.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_948ac.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_948ac.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_948ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_948ac.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_948ac.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_948ac/fast' failed
+make: *** [cmTC_948ac/fast] Error 2
+
+File /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cdc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cdc3.dir/build.make CMakeFiles/cmTC_5cdc3.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cdc3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_5cdc3.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_5cdc3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5cdc3.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5cdc3.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5cdc3/fast' failed
+make: *** [cmTC_5cdc3/fast] Error 2
+
+File /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_887f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_887f4.dir/build.make CMakeFiles/cmTC_887f4.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_887f4.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_887f4.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_887f4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_887f4.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_887f4.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_887f4/fast' failed
+make: *** [cmTC_887f4/fast] Error 2
+
+File /home/nhamtung/TungNV/Scan3D/hector_quadrotor_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

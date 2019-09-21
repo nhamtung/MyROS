@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install
+
+Name: hector_uav_msgs
+Description: Description of hector_uav_msgs
+Version: 0.3.5
+Cflags: -I/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install/include
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/install/lib 
+Requires: message_runtime std_msgs

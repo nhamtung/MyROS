@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.3.2
+Cflags: -I/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel/include
+Libs: -L/home/nhamtung/TungNV/Scan3D/TungNV_husky_scan3d_ws/devel/lib 
+Requires: std_msgs message_runtime

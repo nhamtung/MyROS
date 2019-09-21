@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic/setup.sh

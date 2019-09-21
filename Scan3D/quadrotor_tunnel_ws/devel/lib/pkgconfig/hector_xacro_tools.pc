@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/Scan3D/quadrotor_tunnel_ws/devel
+
+Name: hector_xacro_tools
+Description: Description of hector_xacro_tools
+Version: 0.5.0
+Cflags: 
+Libs: -L/home/nhamtung/TungNV/Scan3D/quadrotor_tunnel_ws/devel/lib 
+Requires: 

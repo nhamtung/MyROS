@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/ros_ws/parts/workspace/install/opt/ros/kinetic
+
+Name: rosbag_migration_rule
+Description: Description of rosbag_migration_rule
+Version: 1.0.0
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 
