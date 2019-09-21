@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-  "/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
-  "/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/devel/lib/rplidar_ros/rplidarNode"
+  "/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/devel/lib/rplidar_ros/rplidarNode"
 )
 
 # Per-language clean rules from dependency scanning.

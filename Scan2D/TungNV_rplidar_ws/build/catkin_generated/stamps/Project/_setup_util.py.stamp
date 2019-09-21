@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/devel;/home/nhamtung/TungNV/Scan2D/RPLidar_Hector_SLAM/devel;/home/nhamtung/TungNV/Scan3D/TungNV_hector_quadrotor_ws/devel;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

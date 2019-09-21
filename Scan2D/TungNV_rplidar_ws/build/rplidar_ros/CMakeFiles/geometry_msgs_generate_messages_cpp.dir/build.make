@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometry_m
 .PHONY : rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	cd /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/src /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/src/rplidar_ros /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build/rplidar_ros /home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build/rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/src /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/src/rplidar_ros /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build/rplidar_ros /home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build/rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

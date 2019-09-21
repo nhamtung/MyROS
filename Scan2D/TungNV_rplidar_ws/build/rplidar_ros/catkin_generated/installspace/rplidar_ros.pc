@@ -1,8 +1,8 @@
-prefix=/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/install
+prefix=/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/install
 
 Name: rplidar_ros
 Description: Description of rplidar_ros
 Version: 1.5.7
 Cflags: 
-Libs: -L/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/install/lib 
+Libs: -L/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/install/lib 
 Requires: 

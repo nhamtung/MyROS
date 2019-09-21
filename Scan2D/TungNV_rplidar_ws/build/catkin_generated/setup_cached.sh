@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/nhamtung/TungNV/Scan2D/RPLidar_Hector_SLAM/devel/lib:/home/nhamtung/TungNV/Scan3D/TungNV_hector_quadrotor_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
-export PKG_CONFIG_PATH="/home/nhamtung/TungNV/Scan2D/RPLidar_Hector_SLAM/devel/lib/pkgconfig:/home/nhamtung/TungNV/Scan3D/TungNV_hector_quadrotor_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
-export PWD="/home/nhamtung/TungNV/Scan2D/TungNV_rplidar_ws/build"
-export PYTHONPATH="/home/nhamtung/TungNV/Scan2D/RPLidar_Hector_SLAM/devel/lib/python2.7/dist-packages:/home/nhamtung/TungNV/Scan3D/TungNV_hector_quadrotor_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages"
+export CMAKE_PREFIX_PATH="/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/local/lib:/home/nhamtung/jetsonbot/devel/lib:/home/nhamtung/TungNV/Scan3D/TungNV_hector_quadrotor_ws/devel/lib"
+export PATH="/opt/ros/kinetic/bin:/home/nhamtung/bin:/home/nhamtung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+export PWD="/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nhamtung/TungNV/MyROS/Scan2D/TungNV_rplidar_ws/src:$ROS_PACKAGE_PATH"
