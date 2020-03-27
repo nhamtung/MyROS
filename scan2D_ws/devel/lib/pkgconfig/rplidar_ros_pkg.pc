@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyROS/scan2D_ws/devel
+
+Name: rplidar_ros_pkg
+Description: Description of rplidar_ros_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

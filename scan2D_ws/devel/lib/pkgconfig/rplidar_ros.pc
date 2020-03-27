@@ -2,7 +2,7 @@ prefix=/home/nhamtung/TungNV/MyROS/scan2D_ws/devel
 
 Name: rplidar_ros
 Description: Description of rplidar_ros
-Version: 1.5.7
+Version: 1.10.0
 Cflags: 
-Libs: -L/home/nhamtung/TungNV/MyROS/scan2D_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 
