@@ -92,7 +92,6 @@ rplidarNodeClient_EXTERNAL_OBJECTS =
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: rplidar_ros/CMakeFiles/rplidarNodeClient.dir/build.make
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libroscpp.so
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole.so
 /home/nhamtung/TungNV/MyROS/rplidar_ws/devel/lib/rplidar_ros/rplidarNodeClient: /opt/ros/melodic/lib/librosconsole_log4cxx.so
